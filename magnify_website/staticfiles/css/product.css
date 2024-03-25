@@ -1,3 +1,5 @@
+{% load static %}
+
 .container {
   max-width: 960px;
 }
@@ -59,6 +61,18 @@
   background-color: #e5e5e5;
 }
 
+
+.company-header {
+	text-align: center;
+	background-image:  url("../images/telescope_con_down.png");
+	/* background-image:  url("../images/telescope_text.png"); */
+	background-size: cover;
+	color: whitesmoke;	
+  text-shadow: 0px 0px 10px goldenrod;
+  min-height: 700px;
+  min-width: 100px;
+  background-position: bottom center;
+}
 
 /*
  * Extra utilities
