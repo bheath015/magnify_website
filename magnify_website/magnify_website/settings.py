@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-w31p)g=tb+#!6o_6fg!%fe92e@-h$n!@^1=1ew)jg_t_959+^n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'eagle5.local']
+ALLOWED_HOSTS = ['127.0.0.1', 'eagle5.local', 'magnifyaisolutions.com', 'www.magnifyaisolutions.com']
 
 
 # Application definition
