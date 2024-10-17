@@ -9,6 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/magnify_cropped_black.ico' %}">
+
     <title>Magnify AI Solutions</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
@@ -20,13 +22,15 @@
   <body>
 
 
-<nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
-  <div class="container">
-    <a class="navbar-brand d-md-none" href="#">
-      <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
-      Magnify AI Solutions
+    <nav class="navbar bg-dark sticky-top border-bottom" data-bs-theme="dark">
+    <!-- <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark"> -->
+        <div class="container">
+    <a class="navbar-brand" href="#" style="width: 80%">
+    <!-- <a class="navbar-brand d-md-none" href="#"> -->
+        <!-- <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg> -->
+        <img src="{% static 'images/magnify_full_white.png' %}" style="border-radius: 0px; width: 30%;">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
@@ -37,7 +41,7 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav flex-grow-1 justify-content-between">
           <li class="nav-item"><a class="nav-link" href="#">
-            <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
+            <!-- <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg> -->
           </a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
@@ -69,6 +73,10 @@
         <small class="d-block mb-3 text-body-secondary">&copy; 2024</small> -->
       </div>
       <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="http://www.brianheath.info">Team</a></li>
+          <li><a class="link-secondary text-decoration-none" href="mailto:magnifyaisolutions@gmail.com">Contact</a></li>
         <!-- <h5>Features</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
@@ -90,10 +98,10 @@
         </ul> -->
       </div>
       <div class="col-6 col-md">
-        <h5>About</h5>
+        <!-- <h5>About</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary text-decoration-none" href="http://www.brianheath.info">Team</a></li>
-          <li><a class="link-secondary text-decoration-none" href="mailto:magnifyaisolutions@gmail.com">Contact</a></li>
+          <li><a class="link-secondary text-decoration-none" href="mailto:magnifyaisolutions@gmail.com">Contact</a></li> -->
           <!-- <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li> -->
         </ul>
       </div>
